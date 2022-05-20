@@ -855,12 +855,12 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@middy/core@^2.5.3":
+"@middy/core@2.5.7":
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/@middy/core/-/core-2.5.7.tgz#a1b3eff68881ff66b14b5051255791f7cbd3b471"
   integrity sha512-KX5Ud0SP+pol6PGkYtMCH4goHobs1XJo3OvEUwdiZUIjZgo56Q08nLu5N7Bs6P+FwGTQHA+hlQ3I5SZbfpO/jg==
 
-"@middy/http-json-body-parser@^2.5.3":
+"@middy/http-json-body-parser@2.5.7":
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/@middy/http-json-body-parser/-/http-json-body-parser-2.5.7.tgz#966dccc77ec5a0a163efe731b7c7007adf821513"
   integrity sha512-6xysTWlK8s8QTVyQE9MfXR6fIY9h26uyiD1rM0mmYzGhLqWmamHgJvXzpBVXyRwOej451zSfjdSgKU66nxZmrw==
@@ -948,7 +948,7 @@
     traverse "^0.6.6"
     ws "^7.5.3"
 
-"@serverless/typescript@^3.0.0":
+"@serverless/typescript@3.18.0":
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/@serverless/typescript/-/typescript-3.18.0.tgz#5038733f32cfc39ce4fda36348f237a5b7d53226"
   integrity sha512-1Z1GiRsBzYt0lGK+LRW8RQic7PXbWwdQA8wd9qHpYPpvEv8rqFegbSDNYhIPSQ7FPwpsqC283fB49RvzweZGWw==
@@ -1059,7 +1059,7 @@
   resolved "https://registry.yarnpkg.com/@tsconfig/node16/-/node16-1.0.2.tgz#423c77877d0569db20e1fc80885ac4118314010e"
   integrity sha512-eZxlbI8GZscaGS7kkc/trHTT5xgrjH3/1n2JDwusC9iahPKWMRvRjJSAN5mCXviuTGQ/lHnhvv8Q1YTpnfz9gA==
 
-"@types/aws-lambda@^8.10.71":
+"@types/aws-lambda@8.10.97":
   version "8.10.97"
   resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.97.tgz#9b2f2adfa63a215173a9da37604e4f65dd56cb98"
   integrity sha512-BZk3qO4R2KN8Ts3eR6CW1n8LI46UOgv1KoDZjo8J9vOQvDeX/rsrv1H0BpEAMcSqZ1mLwTEyAMtlua5tlSn0kw==
@@ -1170,7 +1170,7 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.35.tgz#635b7586086d51fb40de0a2ec9d1014a5283ba4a"
   integrity sha512-vu1SrqBjbbZ3J6vwY17jBs8Sr/BKA+/a/WtjRG+whKg1iuLFOosq872EXS0eXWILdO36DHQQeku/ZcL6hz2fpg==
 
-"@types/node@^14.14.25":
+"@types/node@14.18.18":
   version "14.18.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.18.18.tgz#5c9503030df484ccffcbb935ea9a9e1d6fad1a20"
   integrity sha512-B9EoJFjhqcQ9OmQrNorItO+OwEOORNn3S31WuiHvZY/dm9ajkB7AKD/8toessEtHHNL+58jofbq7hMMY9v4yig==
@@ -2633,7 +2633,7 @@ esbuild-windows-arm64@0.14.39:
   resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.39.tgz#00268517e665b33c89778d61f144e4256b39f631"
   integrity sha512-sBZQz5D+Gd0EQ09tZRnz/PpVdLwvp/ufMtJ1iDFYddDaPpZXKqPyaxfYBLs3ueiaksQ26GGa7sci0OqFzNs7KA==
 
-esbuild@^0.14.11:
+esbuild@0.14.39:
   version "0.14.39"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.14.39.tgz#c926b2259fe6f6d3a94f528fb42e103c5a6d909a"
   integrity sha512-2kKujuzvRWYtwvNjYDY444LQIA3TyJhJIX3Yo4+qkFlDDtGlSicWgeHVJqMUP/2sSfH10PGwfsj+O2ro1m10xQ==
@@ -4231,7 +4231,7 @@ jest-worker@^28.1.0:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-jest@^28.1.0:
+jest@28.1.0:
   version "28.1.0"
   resolved "https://registry.yarnpkg.com/jest/-/jest-28.1.0.tgz#f420e41c8f2395b9a30445a97189ebb57593d831"
   integrity sha512-TZR+tHxopPhzw3c3560IJXZWLNHgpcz1Zh0w5A65vynLGNcg/5pZ+VildAd7+XGOu6jd58XMY/HNn0IkZIXVXg==
@@ -4309,7 +4309,7 @@ json-refs@^3.0.15:
     slash "^3.0.0"
     uri-js "^4.2.2"
 
-json-schema-to-ts@^1.5.0:
+json-schema-to-ts@1.6.5:
   version "1.6.5"
   resolved "https://registry.yarnpkg.com/json-schema-to-ts/-/json-schema-to-ts-1.6.5.tgz#9cc1d3806d33bc7b4700354b8d449b6ad79c3473"
   integrity sha512-BLUdzgz50XV+NMrSg8+KrUvV7Oh1eb/kLsyPbkWXFTXTloWkAsq7MbAppibE+DyMy4PasS/7bFQPwTIHx35r+A==
@@ -5260,7 +5260,7 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^2.6.2:
+prettier@2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.6.2.tgz#e26d71a18a74c3d0f0597f55f01fb6c06c206032"
   integrity sha512-PkUpF+qoXTqhOeWL9fu7As8LXsIUZ1WYaJiY/a7McAQzxjk82OF0tibkFXVCDImZtWxbvojFjerkiLb0/q8mew==
@@ -5613,7 +5613,7 @@ semver@^7.3.4, semver@^7.3.5, semver@^7.3.7:
   dependencies:
     lru-cache "^6.0.0"
 
-serverless-esbuild@^1.23.3:
+serverless-esbuild@1.27.1:
   version "1.27.1"
   resolved "https://registry.yarnpkg.com/serverless-esbuild/-/serverless-esbuild-1.27.1.tgz#7df8bf3f94d6a06a26d0715e28238d0de54193df"
   integrity sha512-or7M7DUZZPFgF5YCIto25roxaymlNyIZY2IrkqgmQLnc7SXOaCKNA6KqKRX8ifGkrDgiJ4KyxmHrHNfLwS2dOA==
@@ -5628,7 +5628,7 @@ serverless-esbuild@^1.23.3:
     semver "^7.3.5"
     string.prototype.matchall "^4.0.4"
 
-serverless-offline@^8.8.0:
+serverless-offline@8.8.0:
   version "8.8.0"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-8.8.0.tgz#ad12e7a9f86366584ea8f855412bebf25546fcc6"
   integrity sha512-FLS5AZb6uGxalDfwB9/M6jl3IOA4zwIEIgJY8QANuNncbwbcoZfilD1Ajl87hLvUnRvTzncv3gz8QYssVAvq8Q==
@@ -5659,7 +5659,7 @@ serverless-offline@^8.8.0:
     velocityjs "^2.0.6"
     ws "^7.5.7"
 
-serverless@^3.0.0:
+serverless@3.18.0:
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.18.0.tgz#1a6df3a43cec7078c683108b2c26557edced9b13"
   integrity sha512-C1lcPBlvx0tSjOEokH7d+L5Dj8OIMKMIW+ZRWMdgTb2is18IPEY70kizKsBJPEoq2yWuUF5X0aLMS+s456BxJQ==
@@ -6161,7 +6161,7 @@ trim-repeated@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-ts-node@^10.4.0:
+ts-node@10.7.0:
   version "10.7.0"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-10.7.0.tgz#35d503d0fab3e2baa672a0e94f4b40653c2463f5"
   integrity sha512-TbIGS4xgJoX2i3do417KSaep1uRAW/Lu+WAL2doDHC0D6ummjirVOXU5/7aiZotbQ5p1Zp9tP7U6cYhA0O7M8A==
@@ -6185,7 +6185,7 @@ ts-toolbelt@^6.15.5:
   resolved "https://registry.yarnpkg.com/ts-toolbelt/-/ts-toolbelt-6.15.5.tgz#cb3b43ed725cb63644782c64fbcad7d8f28c0a83"
   integrity sha512-FZIXf1ksVyLcfr7M317jbB67XFJhOO1YqdTcuGaq9q5jLUoTikukZ+98TPjKiP2jC5CgmYdWWYs0s2nLSU0/1A==
 
-tsconfig-paths@^3.14.1, tsconfig-paths@^3.9.0:
+tsconfig-paths@3.14.1, tsconfig-paths@^3.14.1:
   version "3.14.1"
   resolved "https://registry.yarnpkg.com/tsconfig-paths/-/tsconfig-paths-3.14.1.tgz#ba0734599e8ea36c862798e920bcf163277b137a"
   integrity sha512-fxDhWnFSLt3VuTwtvJt5fpwxBHg5AdKWMsgcPOOIilyjymcYVZoCQF8fvFRezCNfblEXmi+PcM1eYHeOAgXCOQ==
@@ -6251,7 +6251,7 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@^4.1.3:
+typescript@4.6.4:
   version "4.6.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
   integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
