@@ -6,9 +6,10 @@ const serverlessConfiguration: AWS = {
   service: 'marclip-code-runner',
   frameworkVersion: '3',
   useDotenv: true,
-  plugins: ['serverless-esbuild', 'serverless-offline'],
+  plugins: ['serverless-webpack', 'serverless-offline'],
   provider: {
     name: 'aws',
+    region: 'ap-southeast-2',
     runtime: 'nodejs14.x',
     apiGateway: {
       apiKeys: [{ value: '${env:RUNNER_SERVICE_API_KEY}' }],
@@ -27,15 +28,10 @@ const serverlessConfiguration: AWS = {
     'serverless-offline': {
       httpPort: 4005,
     },
-    esbuild: {
-      bundle: true,
-      minify: false,
-      sourcemap: true,
-      exclude: ['aws-sdk'],
-      target: 'node16',
-      define: { 'require.resolve': undefined },
-      platform: 'node',
-      concurrency: 10,
+    webpack: {
+      webpackConfig: './webpack.config.js',
+      includeModules: true,
+      packager: 'yarn',
     },
   },
 };
