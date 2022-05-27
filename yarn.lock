@@ -858,10 +858,10 @@
   resolved "https://registry.yarnpkg.com/@kwsites/promise-deferred/-/promise-deferred-1.1.1.tgz#8ace5259254426ccef57f3175bc64ed7095ed919"
   integrity sha512-GaHYm+c0O9MjZRu0ongGBRbinu8gVAMd2UZjji6jVmqKtZluZnptXGWhz1E8j8D2HJ3f/yMxKAUC0b+57wncIw==
 
-"@middy/core@2.5.7":
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/@middy/core/-/core-2.5.7.tgz#a1b3eff68881ff66b14b5051255791f7cbd3b471"
-  integrity sha512-KX5Ud0SP+pol6PGkYtMCH4goHobs1XJo3OvEUwdiZUIjZgo56Q08nLu5N7Bs6P+FwGTQHA+hlQ3I5SZbfpO/jg==
+"@middy/core@3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@middy/core/-/core-3.0.3.tgz#603633872db77a608b2ba910100c919985b2e0c6"
+  integrity sha512-hykDL6iTjfiJpqFOtLzxn+TO9yI2SP4o9JnRU2ggYWYpH3XvNLXdB+5ClskBG56k2VlIbgCRx1jvycRwtRM2rg==
 
 "@middy/http-json-body-parser@2.5.7":
   version "2.5.7"
