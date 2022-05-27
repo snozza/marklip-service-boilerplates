@@ -3,7 +3,7 @@ import type { AWS } from '@serverless/typescript';
 import runner from '@functions/runner';
 
 const serverlessConfiguration: AWS = {
-  service: 'marclip-code-runner',
+  service: 'service-boilerplate',
   frameworkVersion: '3',
   useDotenv: true,
   plugins: ['serverless-webpack', 'serverless-offline'],
